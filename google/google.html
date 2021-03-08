@@ -67,7 +67,7 @@
             if (pathname.slice(-1) != "/") {
                 pathname += "/";
             }
-            
+
             var privateIPRegex = /(^10\.)|(^172\.1[6-9]\.)|(^172\.2[0-9]\.)|(^172\.3[0-1]\.)|(^192\.168\.)/;
             var callback;
             var tip;
@@ -159,7 +159,7 @@
 
 <script type="text/x-red" data-template-name="google-api-config">
     <div class="form-row">
-        <label for="node-config-input-key"><i class="fa fa-bookmark"></i><span data-i18n="google.label.apikey"></span></label>
+        <label for="node-config-input-key"><i class="fa fa-bookmark"></i> <span data-i18n="google.label.apikey"></span></label>
         <input class="input-append-left" type="password" id="node-config-input-key" style="width: 40%;" >
     </div>
     <div class="form-tips">
