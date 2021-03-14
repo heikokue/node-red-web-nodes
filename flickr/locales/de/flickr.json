@@ -3,33 +3,33 @@
         "label": {
             "flickr": "Flickr",
             "tags": "Tags",
-            "privacy": "Privacy",
-            "default": "User default",
-            "public": "Public",
-            "private": "Private",
-            "friends": "Friends",
-            "family": "Family",
-            "frfa": "Friends & Family",
+            "privacy": "Privatsphäre",
+            "default": "Benutzerstandard",
+            "public": "Öffentlich",
+            "private": "Privat",
+            "friends": "Freunde",
+            "family": "Familie",
+            "frfa": "Freunde & Familie",
             "name": "Name",
-            "create": "Create your own app at",
-            "copy": "Copy the app details here",
+            "create": "Eigene App erzeugen bei",
+            "copy": "App-Details hierher kopieren",
             "key": "Key",
             "secret": "Secret",
-            "authenticate": "Authenticate with Flickr",
-            "flickrid": "Flickr ID"
+            "authenticate": "Bei Flickr authentifizieren",
+            "flickrid": "Flickr-ID"
         },
         "placeholder": {
-            "tags": "space-separated tags to add"
+            "tags": "Komma-getrennte Tags"
         },
         "status": {
             "uploading": "uploading",
-            "failed": "failed"
+            "failed": "Fehlgeschlagen"
         },
         "error": {
-            "missing-credentials": "Missing flickr credentials",
-            "something-broke": "Something went wrong in the authentication process. Please try again.",
-            "oautherror": "<p>Something went wrong with the authentication process. The following error was returned:</p><p><b>__statusCode__</b>: __errorData__</p><p>One known cause of this type of failure is if the clock is wrong on system running Node-RED.</p>",
-            "authorized": "<html><head></head><body>Authorised - you can close this window and return to Node-RED</body></html>"
+            "missing-credentials": "Fehlende Flickr-Berechtigungen",
+            "something-broke": "Irgendetwas ist schief gelaufen beim Authentifizierungs-Prozess. Bitte erneut probieren.",
+            "oautherror": "<p>Irgendetwas ist schief gelaufen beim Authentifizierungs-Prozess. Der folgende Fehler wurde rückgegeben:</p><p><b>__statusCode__</b>: __errorData__</p><p>Ein bekannter Grund für diesen Fehlertyp könnte sein, dass die Uhrzeit des Systems falsch ist, auf dem Node-RED läuft.</p>",
+            "authorized": "<html><head></head><body>Erfolgreich authorisiert bei Flickr. Dieses Fenster kann jetzt geschlossen werden.</body></html>"
         }
     }
 }

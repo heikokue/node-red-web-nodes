@@ -2,43 +2,43 @@
     "dropbox": {
         "label": {
             "dropbox": "Dropbox",
-            "pattern": "Filename Pattern",
+            "pattern": "Datei-Namensmuster",
             "name": "Name",
-            "filename": "Filename",
-            "local": "Local Filename",
+            "filename": "Dateiname",
+            "local": "Lokaler Dateiname",
             "appkey": "App Key",
             "appsecret": "App Secret",
             "accesstoken": "Access Token"
         },
         "placeholder": {
-            "pattern": "Filepattern",
+            "pattern": "Datei-Namensmuster (Pattern)",
             "name": "Name",
-            "filename": "Filename",
-            "local": "Local Filename"
+            "filename": "Dateiname",
+            "local": "Lokaler Dateiname"
         },
         "tip": {
-            "cred1": "To obtain an access token, visit the <i><a href='https://www.dropbox.com/developers/apps/create' target='_new'>Dropbox developer home</a></i>.<br><br>Once signed up:",
-            "cred2": "<ol><li>click 'Create app',</li><li>select 'Dropbox API app',</li><li>choose either App folder or Full Dropbox access,</li><li>choose an app name</li><li>click 'Create app'.</li></ol>",
-            "cred3": "On the subsequent page, click the button to generated an access token. Copy it into the box above."
+            "cred1": "<p>Zum Erhalt des Access-Tokens ist nach Anmeldung auf <a href='https://www.dropbox.com/developers/apps/create' target='_new'>Dropbox developer home</a>:",
+            "cred2": "<ol><li><i>Create app</i> klicken</li><li><i>Dropbox API app</i> auswählen</li><li>Auswahl entweder des App-Verzeichnisses oder der vollen Dropbox-Zugriff</li><li>App-Name auswählen</li><li><i>Create app</i> klicken</li></ol>",
+            "cred3": "Auf der Folgeseite den Button zur Generierung des Access-Tokens klicken und diesen oben hinkopieren."
         },
         "status": {
-            "initializing": "initializing",
-            "failed": "failed",
-            "checking-for-changes": "checking for changes",
-            "downloading": "downloading",
-            "checking-credentials": "checking credentials",
-            "access-denied": "access denied",
-            "uploading": "uploading"
+            "initializing": "Initialisiere",
+            "failed": "Fehlgeschlagen",
+            "checking-for-changes": "Prüfe auf Änderungen",
+            "downloading": "Lade herunter",
+            "checking-credentials": "Prüfe Berechtigungen",
+            "access-denied": "Zugriff verweigert",
+            "uploading": "Lade hoch"
         },
         "warn": {
-            "missing-credentials": "Missing dropbox credentials"
+            "missing-credentials": "Fehlende Dropbox-Berechtigugnen"
         },
         "error": {
-            "initialization-failed": "initialization failed __err__",
-            "change-fetch-failed": "failed to fetch changes __err__",
-            "no-filename": "No filename specified",
-            "download-failed": "download failed __err__",
-            "credentials-error": "Error verifying credentials: __err__"
+            "initialization-failed": "Initialisierung fehlgeschlagen: __err__",
+            "change-fetch-failed": "Fehler beim Abruf der Änderungen: __err__",
+            "no-filename": "Keinen Dateinamen angegeben",
+            "download-failed": "Download fehlgeschlagen: __err__",
+            "credentials-error": "Fehler beim Prüfen der Berechtigungen: __err__"
         }
     }
 }

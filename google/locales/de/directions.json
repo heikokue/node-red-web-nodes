@@ -4,41 +4,41 @@
             "directions": "Google Directions",
             "name": "Name",
             "apikey": "Google API Key",
-            "origin": "Origin",
-            "destination": "Destination",
-            "mode": "Mode",
-            "driving": "Driving",
-            "walking": "Walking",
-            "bicycling": "Bicycling",
+            "origin": "Startpunkt",
+            "destination": "Zielpunkt",
+            "mode": "Modus",
+            "driving": "Fahrend (z.B. Auto)",
+            "walking": "Gehend",
+            "bicycling": "Fahrrad fahrend",
             "transit": "Transit",
-            "waypoints": "Waypoints",
-            "alternatives": "Alternatives",
-            "avoid": "Avoid",
-            "language": "Language",
-            "units": "Units",
-            "metric": "Metric",
-            "imperial": "Imperial",
+            "waypoints": "Wegpunkte",
+            "alternatives": "Alternativen",
+            "avoid": "Vermeiden",
+            "language": "Sprache",
+            "units": "Einheiten",
+            "metric": "Metrisch (Meter)",
+            "imperial": "Imperial (Meilen usw.)",
             "region": "Region",
-            "departuretime": "Departure Time",
-            "arraivaltime": "Arrival Time",
-            "transitmode": "Transit Mode",
-            "transitpref": "Transit Routing Preferences"
+            "departuretime": "Abfahrtszeit",
+            "arraivaltime": "Ankunftszeit",
+            "transitmode": "Transitmodus",
+            "transitpref": "Transit-Routen-Präferenzen"
         },
         "placeholder": {
             "name": "Name"
         },
         "status": {
-            "failed": "failed"
+            "failed": "Fehlgeschlagen"
         },
         "error": {
-            "no-origin": "Please supply an origin value",
-            "no-destination": "Please supply an destination value",
-            "no-waypoint": "Could not find origin, destination, or waypoint",
-            "too-many-waypoints": "Too many waypoints provided. The maximum allowed is 8",
-            "invalid-request": "Invalid request. Check for an invalid parameter or parameter value",
-            "too-many-requests": "Too many requests from provided application key",
-            "request-denied": "Request denied by Google",
-            "unknown-error": "An unknown error occured. Please try again"
+            "no-origin": "Bitte Startpunkt angeben",
+            "no-destination": "Bitte Zielpunkt angeben",
+            "no-waypoint": "Startpunkt, Zielpunkt oder Wegpunkte nicht gefunden",
+            "too-many-waypoints": "Zu viele Wegpunkte vorgegeben. Es sind maximal 8 erlaubt.",
+            "invalid-request": "Ungültige Anfrage. Bitte auf ungültige Parameterangaben überprüfen.",
+            "too-many-requests": "Zu viele Anfragen über den vorgegebenen API Key",
+            "request-denied": "Anfrage abgelehnt von Google",
+            "unknown-error": "Unbekannter Fehler aufgetreten. Bitte erneut versuchen."
         },
         "message": {
             "travel-directions": "Travel directions via"

@@ -1,46 +1,45 @@
 {
     "calendar": {
         "label": {
-            "google-calendar": "Google Calendar",
+            "google-calendar": "Google Kalender",
             "google": "Google",
-            "calendar": "Calendar",
-            "inject-message": "Inject message",
-            "the": "the",
-            "each-event": "of each event.",
-            "option_at": "at",
-            "option_before": "before",
-            "option_after": "after",
-            "option_start": "start",
-            "option_end": "end",
-            "seconds": "seconds",
-            "minutes": "minutes",
-            "hours": "hours",
-            "days": "days",
-            "before": "before",
-            "start": "start",
+            "calendar": "Kalender",
+            "inject-message": "Nachricht",
+            "the": "dem",
+            "each-event": "eines jeden Ereignisses",
+            "option_at": "bei",
+            "option_before": "vor",
+            "option_after": "nach",
+            "option_start": "Beginn",
+            "option_end": "Ende",
+            "seconds": "Sekunden",
+            "minutes": "Minuten",
+            "hours": "Stunden",
+            "days": "Tage",
             "name": "Name",
-            "count": "Events"
+            "count": "Ereignisse",
+            "incl-og-events": "Laufende Ereignisse einschließen"
         },
         "status": {
-            "querying": "querying",
-            "invalid-calendar": "invalid calendar",
-            "next-event": "querying next event",
-            "no-event": "no event",
-            "creating": "creating",
-            "failed": "failed"
+            "querying": "Abfrage",
+            "invalid-calendar": "Ungültiger Kalender",
+            "next-event": "Abfrage nächstes Ereignis",
+            "no-event": "Kein Ereignis",
+            "creating": "Erzeugung",
+            "failed": "Fehlgeschlagen"
         },
         "warn": {
-            "no-credentials": "Missing google credentials"
+            "no-credentials": "Fehlende Google-Berechtigungen"
         },
         "error": {
-            "invalid-calendar": "invalid calendar",
-            "error": "Error: __error__",
-            "no-event": "Error: no event found",
-            "fetch-failed": "failed to fetch calendar list: __message__",
-            "error-details": "Error __code__: __message__"
+            "invalid-calendar": "Ungültiger Kalender",
+            "error": "FEHLER: __error__",
+            "no-event": "FEHLER: Kein Ereignis gefunden",
+            "fetch-failed": "Fehler bei Abfrage der Kalenderliste: __message__",
+            "error-details": "Fehler __code__: __message__"
         },
         "helptext": {
-            "count": "Number of events to return [1-10]"
+            "count": "Anzahl der zurückzugebenden Ereignisse [1-10]"
         }
     }
 }

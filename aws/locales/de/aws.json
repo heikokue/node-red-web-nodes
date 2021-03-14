@@ -3,44 +3,44 @@
         "label": {
             "aws": "AWS",
             "bucket": "Bucket",
-            "pattern": "Filename Pattern",
+            "pattern": "Datei-Namensmuster",
             "name": "Name",
-            "filename": "Filename",
+            "filename": "Dateiname",
             "region": "Region",
-            "local": "Local Filename",
-            "keyid": "AccessKeyID",
+            "local": "Lokaler Dateiname",
+            "keyid": "Access Key ID",
             "secret": "Secret Access Key"
         },
         "placeholder": {
-            "bucket": "bucket name",
-            "pattern": "Filepattern",
+            "bucket": "Bucket-Name",
+            "pattern": "Datei-Namensmuster (Pattern)",
             "name": "Name",
-            "filename": "Filename",
+            "filename": "Dateiname",
             "region": "Region",
-            "local": "Local Filename"
+            "local": "Lokaler Dateiname"
         },
         "tip": {
-            "config1": "<p>To obtain these credentials, sign up to <a href='http://aws.amazon.com/'>Amazon Web Services</a>, Then either:</p>",
-            "config2": "<ul><li>click on your account name and select 'Security Credentials' then click 'Access Keys (Access Key ID and Secret Access Key)' or</li><li>select 'IAM' under 'Deployment & Management' from the AWS console and create an 'IAM' user with a suitable policy.</li></ul>"
+            "config1": "<p>Zum Erhalt der Berechtigungen nach Anmeldung auf <a href='http://aws.amazon.com/'>Amazon Web Services</a> kann man entweder</p>",
+            "config2": "<ul><li>Auf Kontoname (account name) klicken, <i>Security Credentials</i> auswählen und dann <i>Access Keys (Access Key ID and Secret Access Key)</i> klicken oder</li><li><i>IAM</i> unter <i>Deployment & Management</i> von der AWS-Konsole auswählen und einen <i>IAM</i>-Benutzer mit passenden Rechten anlegen.</li></ul>"
         },
         "status": {
-            "initializing": "initializing",
-            "error": "error",
-            "checking-for-changes": "checking for changes",
-            "downloading": "downloading",
-            "checking-credentials": "checking credentials",
-            "uploading": "uploading",
-            "failed": "failed"
+            "initializing": "Initialisiere",
+            "error": "Fehler",
+            "checking-for-changes": "Prüfe auf Änderungen",
+            "downloading": "Lade herunter",
+            "checking-credentials": "Prüfe Berechtigungen",
+            "uploading": "Lade hoch",
+            "failed": "Fehlgeschlagen"
         },
         "warn": {
-            "missing-credentials": "Missing AWS credentials"
+            "missing-credentials": "Fehlende AWS-Berechtigugnen"
         },
         "error": {
-            "failed-to-fetch": "failed to fetch S3 state: __err__",
-            "no-bucket-specified": "No bucket specified",
-            "no-filename-specified": "No filename specified",
-            "download-failed": "download failed: __err__",
-            "aws-s3-error": "AWS S3 error: __err__"
+            "failed-to-fetch": "Abruf des S3-Status fehlgeschlagen: __err__",
+            "no-bucket-specified": "Kein Bucket angegeben",
+            "no-filename-specified": "Keinen Dateinamen angegeben",
+            "download-failed": "Download fehlgeschlagen: __err__",
+            "aws-s3-error": "AWS-S3-Fehler: __err__"
         }
     }
 }

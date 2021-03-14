@@ -3,43 +3,43 @@
         "label": {
             "plus": "Google Plus",
             "name": "Name",
-            "credentials": "Google Credentials",
-            "requesttype": "Request Type",
-            "people": "People",
-            "activities": "Activities",
-            "comments": "Comments",
-            "action": "Action",
-            "get": "Get",
-            "search": "Search",
-            "list": "List",
-            "query": "Query",
-            "collection": "Collection",
-            "userid": "User Id",
-            "activityid": "Activity Id",
-            "commentid": "Comment Id",
-            "language": "Language",
-            "maxresults": "Max Results",
-            "orderby": "Order by",
-            "alphabetical": "Alphabetical",
-            "best": "Best",
-            "sortorder": "Sort Order",
-            "ascending": "Ascending",
-            "descending": "Descending",
-            "pagetoken": "Page Token"
+            "credentials": "Google-Berechtigungen",
+            "requesttype": "Anfragetyp",
+            "people": "Menschen",
+            "activities": "Aktivitäten",
+            "comments": "Kommentare",
+            "action": "Aktion",
+            "get": "Holen (Get)",
+            "search": "Suchen",
+            "list": "Auflisten",
+            "query": "Abfrage",
+            "collection": "Kollektion",
+            "userid": "Benutzer-ID",
+            "activityid": "Aktivitäts-ID",
+            "commentid": "Kommentar-ID",
+            "language": "Sprache",
+            "maxresults": "Max. Ergebnisse",
+            "orderby": "Sortierung",
+            "alphabetical": "Alphabetisch",
+            "best": "Beste",
+            "sortorder": "Sortierung",
+            "ascending": "Aufsteigend",
+            "descending": "Absteigend",
+            "pagetoken": "Seiten-Token"
         },
         "status": {
-            "failed": "failed"
+            "failed": "Fehlgeschlagen"
         },
         "error": {
-            "no-query": "Please supply a query.",
-            "no-collection": "Please supply a collection.",
-            "no-activityid": "Please supply an activityId.",
-            "no-commentid": "Please supply a commentId.",
-            "no-accesstoken": "Please provide an accessToken."
+            "no-query": "Bitte Abfrage angegeben",
+            "no-collection": "Bitte Kollektion angegeben",
+            "no-activityid": "Bitte Aktivitäts-ID angegeben",
+            "no-commentid": "Bitte Kommentar-ID angegeben",
+            "no-accesstoken": "Bitte Abfrage-Token bereitstellen"
         },
         "message": {
             "ok": "OK",
-            "comment": "Comment"
+            "comment": "Kommentar"
         }
     }
 }

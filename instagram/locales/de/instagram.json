@@ -2,56 +2,56 @@
     "instagram": {
         "label": {
             "instagram": "Instagram",
-            "user": "User",
-            "type": "Type",
-            "userphoto": "User photos",
-            "likedphoto": "Liked photos",
-            "output": "Output",
-            "buffer": "the photo as a buffer",
-            "url": "the photo url",
+            "user": "Benutzer",
+            "type": "Typ",
+            "userphoto": "Benutzerfotos",
+            "likedphoto": "Liked-Fotos",
+            "output": "Ausgabe",
+            "buffer": "Foto als ein Buffer",
+            "url": "Foto-URL",
             "name": "Name",
-            "create": "Create your own app at",
-            "copy": "Copy the app details here",
-            "clientid": "Client Id",
+            "create": "Eigene App erzeugen bei",
+            "copy": "App-Details hierher kopieren",
+            "clientid": "Client ID",
             "clientsecret": "Client Secret",
-            "redirecturi": "Redirect URI",
-            "authenticate": "Authenticate with Instagram",
-            "instagramuser": "Instagram User"
+            "redirecturi": "Weiterleitungs-URI",
+            "authenticate": "Bei Instagram authentifizieren",
+            "instagramuser": "Instagram-Benutzer"
         },
         "placeholder": {
             "name": "Name"
         },
         "tip": {
-            "redirect": "<p>Please configure Instagram to accept the following <b>Redirect URL</b> for authentication of your application:</p>\n<code>__constructedURI__</code>"
+            "redirect": "<p>Bitte bei Instagram einstellen, dass folgende <b>Weiterleitungs-URL</b> zur Authentifikation dieser App akzeptiert wird: </p>\n<code>__constructedURI__</code>"
         },
         "warn": {
-            "image-not-sent": "Instagram node has failed to buffer up an image. Image was not sent.\n__error__\n__response__",
-            "missing-accesstoken": "Missing Instagram access token. Authorization has not been completed before node initialization.",
-            "missing-configuration": "Missing Instagram configuration or credentials. Authorization has not been completed before node initialization.",
-            "userphoto-fetch-fail": "Instagram node has failed to fetch latest user photo : __err__",
-            "ignoring-media": "The Instagram API has not provided all the required data to establish the URL of the photo. Ignoring media.",
-            "not-a-photo": "The most recent media on Instagram is not a photo, therefore it has been ignored.",
-            "not-uploaded-yet": "The user has not uploaded any media to Instagram yet, null payload has been sent",
-            "likedphoto-fetch-fail": "Instagram node has failed to fetch latest liked photo : __err__",
-            "not-liked-photo": "The most recently liked media on Instagram is not a photo, therefore it has been ignored.",
-            "not-liked-yet": "The user has not liked any media on Instagram yet, null payload has been sent",
-            "latest-media-fetch-failed": "Instagram node has failed to fetch latest media : __err__",
-            "media-fetch-failed": "Instagram node has failed to fetch any media",
-            "missing-credentials": "Missing Instagram credentials"
+            "image-not-sent": "Instagram-Node ist fehlgeschlagen beim Puffern eines Bildes. Bild wurde nicht gesendet.\n__error__\n__response__",
+            "missing-accesstoken": "Fehlender Instagram-Access-Token. Authorisierung war nicht abgeschlossen vor der Node-Initialisierung.",
+            "missing-configuration": "Fehlende Instagram-Konfiguration or -Berechtigung. Authorisierung war nicht abgeschlossen vor der Node-Initialisierung.",
+            "userphoto-fetch-fail": "Instagram-Node ist fehlgeschlagen beim Abruf des letzten Benutzerfotos: __err__",
+            "ignoring-media": "Die Instagram-API lieferte nicht alle erforderlichen Daten zur Erstellung der URL des Fotos, weswegen es ignoriert wird",
+            "not-a-photo": "Das letzte Medium auf Instagram ist kein Foto, weswegen es ignoriert wird",
+            "not-uploaded-yet": "Der Benutzer hat bislang keine Medien nach Instagram hochgeladen, weswegen keine Nutzdaten (Payload) gesendet wurden",
+            "likedphoto-fetch-fail": "Instagram-Node ist fehlgeschlagen beim Abruf des letzten Liked-Foto: __err__",
+            "not-liked-photo": "Das letzte Liked-Medium auf Instagram ist kein Foto, weswegen es ignoriert wird",
+            "not-liked-yet": "Der Benutzer hat bislang keine Liked-Medien auf Instagram, weswegen keine Nutzdaten (Payload) gesendet wurden",
+            "latest-media-fetch-failed": "Instagram-Node ist fehlgeschlagen beim Abruf des letzten Mediums: __err__",
+            "media-fetch-failed": "Instagram-Node ist fehlgeschlagen beim Abruf irgendeines Mediums",
+            "missing-credentials": "Fehlende Instagram-Berechtigungen"
         },
         "error": {
-            "csrf-token-mismatch": "CSRF token mismatch, possible cross-site request forgery attempt.",
-            "no-required-code": "The callback from Instagram did not contain a required code",
-            "unexpected-statuscode": "Instagram replied with the unexpected HTTP status code of __statusCode__\nDetails:\n__data__",
-            "request-error": "request error:__err__",
-            "oauth-error": "oauth error: __error__",
-            "no-ui-credentials": "ERROR: Received query from UI without the needed credentials",
-            "no-credentials": "ERROR: no credentials - should never happen",
-            "username-fetch-fail": "Error! Instagram node has failed to fetch the username.",
-            "accesstoken-fetch-fail": "Error! Instagram node has failed to fetch a valid access token."
+            "csrf-token-mismatch": "Keine Übereinstimmung des CSRF-Tokens, möglicherweise gefälschter Cross-Site-Anfrageversuch",
+            "no-required-code": "Die Rückfrage von Instagram enthielt nicht den erforderlichen Code",
+            "unexpected-statuscode": "Instagram antwortete mit einem unerwarteten HTTP-Status-Code von __statusCode__\nDetails:\n__data__",
+            "request-error": "Anfragefehler:__err__",
+            "oauth-error": "OAuth-Fehler: __error__",
+            "no-ui-credentials": "FEHLER: Abfrage von Benutzeroberfläche (UI) ohne die benötigten Berechtigungen empfangen",
+            "no-credentials": "FEHLER: Keine Berechtigungen - sollte niemals passieren",
+            "username-fetch-fail": "FEHLER: Instagram-Node ist fehlgeschlagen beim Abruf des Benutzernamens",
+            "accesstoken-fetch-fail": "FEHLER: Instagram-Node ist fehlgeschlagen beim Abruf eines gültigen Access-Tokens"
         },
         "message": {
-            "authorized": "<html><head></head><body>Successfully authorized with Instagram. You can close this window now.</body></html>"
+            "authorized": "<html><head></head><body>Erfolgreich authorisiert bei Instagram. Dieses Fenster kann jetzt geschlossen werden.</body></html>"
         }
     }
 }

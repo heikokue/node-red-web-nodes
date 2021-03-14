@@ -2,33 +2,33 @@
     "fitbit": {
         "label": {
             "fitbit": "Fitbit",
-            "type": "Type",
-            "goals": "goals",
-            "sleep": "sleep",
-            "badges": "badges",
-            "activities": "activities",
+            "type": "Typ",
+            "goals": "Ziele",
+            "sleep": "Schlaf",
+            "badges": "Abzeichen",
+            "activities": "Aktivitäten",
             "name": "Name",
-            "create": "Create your own app at",
-            "copy": "Copy the app details here",
+            "create": "Eigene App erzeugen bei",
+            "copy": "App-Details hierher kopieren",
             "key": "Key",
             "secret": "Secret",
-            "authenticate": "Authenticate with Fitbit",
-            "fitbitid": "Fitbit ID"
+            "authenticate": "Bei Fitbit authentifizieren",
+            "fitbitid": "Fitbit-ID"
         },
         "status": {
-            "initializing": "initializing",
-            "failed": "failed",
-            "querying": "querying"
+            "initializing": "Initialisiere",
+            "failed": "Fehlgeschlagen",
+            "querying": "Frage ab"
         },
         "warn": {
-            "missing-credentials": "Missing fitbit credentials",
-            "no-sleep-record": "no main sleep record found"
+            "missing-credentials": "Fehlende Fitbit-Berechtigungen",
+            "no-sleep-record": "Keine Schlafaufzeichnung gefunden"
         },
         "error": {
-            "unsupported-data-type": "Unsupported data type",
-            "missing-credentials": "Missing fitbit credentials",
-            "oautherror": "<p>Something went wrong with the authentication process. The following error was returned:</p><p><b>__statusCode__</b>: __errorData__</p><p>One known cause of this type of failure is if the clock is wrong on system running Node-RED.</p>",
-            "authorized": "<html><head></head><body>Authorised - you can close this window and return to Node-RED</body></html>"
+            "unsupported-data-type": "Nicht unterstützter Datentyp",
+            "missing-credentials": "Fehlende Fitbit-Berechtigungen",
+            "oautherror": "<p>Irgendetwas ist schief gelaufen beim Authentifizierungs-Prozess. Der folgende Fehler wurde rückgegeben:</p><p><b>__statusCode__</b>: __errorData__</p><p>Ein bekannter Grund für diesen Fehlertyp könnte sein, dass die Uhrzeit des Systems falsch ist, auf dem Node-RED läuft.</p>",
+            "authorized": "<html><head></head><body>Erfolgreich authorisiert bei Fitbit. Dieses Fenster kann jetzt geschlossen werden.</body></html>"
         }
     }
 }
