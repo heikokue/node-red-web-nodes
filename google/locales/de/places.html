@@ -9,8 +9,8 @@
     <p><code>reqType</code> - Toggle to switch between a Places Nearby, Places Text, and Places Details request.</p>
     <p>All of the following parameters can be supplied as part of the top level <code>msg</code> object.</p>
     <p><code>msg.key</code> - Your application's API key. This key identifies your application for purposes of quota management. <b><i>(Required)</i></b></p>
-    <p><code>msg.location.lat</code> - Latitude point to be sent to Google in order to be converted to a human-readable address. <b><i>(Required)</i></b></p>
-    <p><code>msg.location.lon</code> - Longitude point to be sent to Google in order to be converted to a human-readable address. <b><i>(Required)</i></b></p>
+    <p><code>msg.location.lat</code> - Breitengrad point to be sent to Google in order to be converted to a human-readable address. <b><i>(Required)</i></b></p>
+    <p><code>msg.location.lon</code> - Längengrad point to be sent to Google in order to be converted to a human-readable address. <b><i>(Required)</i></b></p>
     <br>
     <p><code>msg.location.radius</code> - Defines the distance (in meters) within which to return place results. The maximum allowed radius is 50000 meters. <b><i>(Required if rankby=prominence. If rankby=distance, radius is not allowed)</i></b></p>
     <p><code>msg.keyword</code> - A term to be matched against all content that Google has indexed for this place, including but not limited to name, type, and address, as well as customer reviews and other third-party content.</p>
@@ -48,8 +48,8 @@
     <p><code>msg.key</code> - Your application's API key. This key identifies your application for purposes of quota management. <b><i>(Required)</i></b></p>
     <p><code>msg.query</code> - The text string on which to search, for example: "restaurant". The Google Places service will return candidate matches based on this string and order the results based on their perceived relevance. <b><i>(Required)</i></b></p>
     <br>
-    <p><code>msg.location.lat</code> - Latitude point to be sent to Google in order to be converted to a human-readable address.</p>
-    <p><code>msg.location.lon</code> - Longitude point to be sent to Google in order to be converted to a human-readable address.</p>
+    <p><code>msg.location.lat</code> - Breitengrad point to be sent to Google in order to be converted to a human-readable address.</p>
+    <p><code>msg.location.lon</code> - Längengrad point to be sent to Google in order to be converted to a human-readable address.</p>
     <p><code>msg.location.radius</code> - Defines the distance (in meters) within which to return place results. The maximum allowed radius is 50000 meters.</p>
     <p><code>msg.keyword</code> - A term to be matched against all content that Google has indexed for this place, including but not limited to name, type, and address, as well as customer reviews and other third-party content.</p>
     <p><code>msg.language</code> - The language in which to return results.</p>

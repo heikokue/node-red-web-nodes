@@ -5,11 +5,11 @@
     <br>
     <p>Input Parameters:</p>
     <p><code>Name</code> - Name of the node</p>
-    <p><code>Geocode by</code> - Toggle to switch between a geocode and reverse-geocode request. Switching between the two will toggle the address and latitude/longitude inputs.</p>
+    <p><code>Geocode by</code> - Toggle to switch between a geocode and reverse-geocode request. Switching between the two will toggle the address and Breitengrad/Längengrad inputs.</p>
     <p>All of the following parameters can be supplied as part of the top level <code>msg</code> object.</p>
     <p><code>msg.location.address</code> - Address to be sent to Google in order to be converted to a set of coordinates. <b><i>(Required if using Geocode by Address)</i></b></p>
-    <p><code>msg.location.lat</code> - Latitude point to be sent to Google in order to be converted to a human-readable address. <b><i>(Required if using Geocode by Coordinates)</i></b></p>
-    <p><code>msg.location.lon</code> - Longitude point to be sent to Google in order to be converted to a human-readable address. <b><i>(Required if using Geocode by Coordinates)</i></b></p>
+    <p><code>msg.location.lat</code> - Breitengrad point to be sent to Google in order to be converted to a human-readable address. <b><i>(Required if using Geocode by Coordinates)</i></b></p>
+    <p><code>msg.location.lon</code> - Längengrad point to be sent to Google in order to be converted to a human-readable address. <b><i>(Required if using Geocode by Coordinates)</i></b></p>
     <p><code>msg.key</code> - Your application's API key. This key identifies your application for purposes of quota management.</p>
     <p><code>msg.bounds</code> - The bounding box of the viewport within which to bias geocode results more prominently. This parameter will only influence, not fully restrict, results from the geocoder.</p>
     <p><code>msg.language</code> - The language in which to return results.</p>

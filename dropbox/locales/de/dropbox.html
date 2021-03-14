@@ -1,7 +1,7 @@
 
 <script type="text/x-red" data-help-name="dropbox in">
     <p>Watches a Dropbox folder for changes and emits messages when they occur.</p>
-    <h3>Outputs</h3>
+    <h3>Ausgangsdaten</h3>
     <dl class="message-properties">
         <dt>payload <span class="property-type">string</span></dt>
         <dd>The full path of the changed file.</dd>
@@ -19,12 +19,12 @@
 
 <script type="text/x-red" data-help-name="dropbox">
     <p>Downloads files from Dropbox.</p>
-    <h3>Inputs</h3>
+    <h3>Eingangsdaten</h3>
     <dl class="message-properties">
         <dt class="optional">filename <span class="property-type">string</span></dt>
         <dd>If not configured within the node, this identifies the full path of the file to download.</dd>
     </dl>
-    <h3>Outputs</h3>
+    <h3>Ausgangsdaten</h3>
     <dl class="message-properties">
         <dt>payload <span class="property-type">string|Buffer</span></dt>
         <dd>The contents of the downloaded file. If the contents is determined to be
@@ -37,7 +37,7 @@
 
 <script type="text/x-red" data-help-name="dropbox out">
     <p>Uploads files to Dropbox.</p>
-    <h3>Inputs</h3>
+    <h3>Eingangsdaten</h3>
     <dl class="message-properties">
         <dt class="optional">payload <span class="property-type">string|Buffer</span></dt>
         <dd>If <code>localFileName</code> is not specified, this contains the contents
