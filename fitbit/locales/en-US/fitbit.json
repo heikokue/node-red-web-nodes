@@ -2,6 +2,7 @@
     "fitbit": {
         "label": {
             "fitbit": "Fitbit",
+            "category": "fitness",
             "type": "Type",
             "goals": "goals",
             "sleep": "sleep",

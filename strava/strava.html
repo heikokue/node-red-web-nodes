@@ -186,7 +186,7 @@
 
 <script type="text/javascript">
     RED.nodes.registerType('strava',{
-        category: 'fitness',
+        category: RED._("node-red-node-strava/strava:strava.label.category"),
         defaults: {
             strava: { type:"strava-credentials", required: true },
             request: {value:"get-most-recent-activity"},

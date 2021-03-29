@@ -2,6 +2,7 @@
     "strava": {
         "label": {
             "strava": "Strava",
+            "category": "Fitness",
             "user": "Benutzer",
             "request": "Abfrage",
             "activity": "Letzte Aktivitäten",

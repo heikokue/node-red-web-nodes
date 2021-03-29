@@ -165,7 +165,7 @@
 
 <script type="text/javascript">
     RED.nodes.registerType('fitbit in',{
-        category: 'social',
+        category: RED._("node-red-node-fitbit/fitbit:fitbit.label.category"),
         color:"#C0DEED",
         defaults: {
             fitbit: {type:"fitbit-credentials",required:true},
@@ -205,7 +205,7 @@
 
 <script type="text/javascript">
     RED.nodes.registerType('fitbit',{
-        category: 'social',
+        category: RED._("node-red-node-fitbit/fitbit:fitbit.label.category"),
         color:"#C0DEED",
         defaults: {
             fitbit: {type:"fitbit-credentials",required:true},
